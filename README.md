@@ -12,3 +12,5 @@
 + 防止神经网络过拟合的常用方法包括: 获取更多的训练数据、减小网络容量、添加权重正则化、添加 dropout
 
 -  ![](./webwxgetmsgimg.jpeg)
+
++ 使用预训练网络有两种方法:特征提取(feature extraction)和微调模型(fine-tuning) 
