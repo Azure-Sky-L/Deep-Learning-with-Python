@@ -13,6 +13,8 @@
     
 * 决策树(decision tree): 是类似于流程图的结构,可以对输入数据点进行分类或根据给定输入来预测输出值
 
+- 随机森林(random forest): 它引入了一种健壮且实用的决策树学习方法,即首先构建许多决策树,然后将它们的输出集成在一起
+
 * logitic 不是回归是分类
 
 - 降维(dimensionality reduction)和聚类(clustering)都是众所周知的无监督学习方法
