@@ -1,6 +1,9 @@
 #### 深度学习基础：
 - 损失函数：用来衡量网络输出结果的质量
-+ logitic 不是回归是分类
+
++ 优化器：将损失值作为反馈信号来调节权重
+
+* logitic 不是回归是分类
 
 - 降维(dimensionality reduction)和聚类(clustering)都是众所周知的无监督学习方法
 
