@@ -28,6 +28,10 @@
 
 - 神经网络的核心组件是层(layer),它是一种数据处理模块,你可以将它看成数据过滤器，进去一些数据,出来的数据变得更加有用。大多数深度学习都是将简单的层链接起来,从而实现渐进式的数据蒸馏(data distillation)
 
++ 张量(tensor)： 存储在多维 Numpy 数组中的数据
+
+- 标量(scalar): 仅包含一个数字的张量
+
 * logitic 不是回归是分类
 
 - 降维(dimensionality reduction)和聚类(clustering)都是众所周知的无监督学习方法
