@@ -1,6 +1,5 @@
-# Practical_summary_of_deep_learning
-## 关于深度学习的一些实用知识点小结
-
+### 深度学习基础：
+- 损失函数：衡量该网络在这个示例上的效果好坏
 + logitic 不是回归是分类
 
 - 降维(dimensionality reduction)和聚类(clustering)都是众所周知的无监督学习方法
