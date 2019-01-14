@@ -112,7 +112,7 @@
 
 + 防止神经网络过拟合的常用方法包括: 获取更多的训练数据、减小网络容量、添加权重正则化、添加 dropout
 
-- L1 正则化(L1 regularization):添加的成本与权重系数的绝对值[权重的 L1 范数(norm)]成正比
+- L1 正则化(L1 regularization): 添加的成本与权重系数的绝对值[权重的 L1 范数(norm)]成正比
 
 + L2 正则化(L2 regularization): 添加的成本与权重系数的平方(权重的 L2 范数)成正比，神经网络的 L2 正则化也叫权重衰减(weight decay)
 
@@ -123,7 +123,7 @@
   - 添加权重正则化
   + 添加 dropout
 
--  ![](./webwxgetmsgimg.jpeg)
+-  ![为模型选择正确的最后一层激活和损失函数](./webwxgetmsgimg.jpeg)
 
 + 使用预训练网络有两种方法:特征提取(feature extraction)和微调模型(fine-tuning) 
 
