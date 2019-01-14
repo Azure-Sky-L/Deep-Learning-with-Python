@@ -32,6 +32,8 @@
 
 - 标量(scalar): 仅包含一个数字的张量
 
++ 向量(vector): 数字组成的数组，也叫一维张量
+
 * logitic 不是回归是分类
 
 - 降维(dimensionality reduction)和聚类(clustering)都是众所周知的无监督学习方法
