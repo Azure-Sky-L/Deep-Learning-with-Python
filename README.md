@@ -206,3 +206,9 @@
     + 立体数据:三维卷积神经网络
 
 - 请记住:对于二分类问题(binary classification),层堆叠的最后一层是使用 sigmoid 激活且只有一个单元的 Dense 层,并使用 binary_crossentropy 作为损失。目标应该是 0 或 1
+
++ 对于单标签多分类问题(single-label categorical classification,每个样本只有一个类别,不会超过一个),层堆叠的最后一层是一个 Dense 层,它使用 softmax 激活,其单元个数等于类别个数。如果目标是 one-hot 编码的,那么使用 categorical_crossentropy 作为损失;如果目标是整数,那么使用 sparse_categorical_crossentropy 作为损失
+
+- 对于多标签多分类问题(multilabel categorical classification,每个样本可以有多个类别),层堆叠的最后一层是一个 Dense 层,它使用 sigmoid 激活,其单元个数等于类别个数,并使用 binary_crossentropy 作为损失。目标应该是 k-hot 编码的
+
++ 对于连续值向量的回归(regression)问题,层堆叠的最后一层是一个不带激活 Dense 层,其单元个数等于你要预测的值的个数(通常只有一个值,比如房价)。有几种损失可用于回归问题,最常见的是 mean_squared_error (均方误差,MSE)和 mean_absolute_error (平均绝对误差,MAE)
