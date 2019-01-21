@@ -171,4 +171,6 @@
 
 + 将向量与标记相关联的方法主要有两种：对标记做 one-hot 编码(one-hotencoding)与标记嵌入[token embedding,通常只用于单词,叫作词嵌入(word embedding)]
 
-- 
++ VAE 的参数通过两个损失函数来进行训练:
+    - 一个是重构损失(reconstruction loss),它迫使解码后的样本匹配初始输入;
+    + 另一个是正则化损失(regularization loss),它有助于学习具有良好结构的潜在空间,并可以降低在训练数据上的过拟合。
